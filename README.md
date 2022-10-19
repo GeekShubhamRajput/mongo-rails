@@ -1,24 +1,26 @@
-# README
+# Rails + Mongo Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains the demo of Mongo.
 
-Things you may want to cover:
+Required things to setup this application :
 
-* Ruby version
+* Ruby version :- ruby '2.7.0' and rails 6.1.7
 
-* System dependencies
+Steps to build from scratch this :-  
 
-* Configuration
+1. Create new rails application 
+`rails new app_name`
 
-* Database creation
+2. Add gem mongoid in your gemfile
 
-* Database initialization
+3. Create User model
+`rails g model User name email`
 
-* How to run the test suite
+4. Add mongo config
+`rails g mongoid:config`
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Create users controller and index action
+`rails g users index`
 
-* Deployment instructions
-
-* ...
+6. Update root path as users index
+  
