@@ -23,4 +23,6 @@ Steps to build from scratch this :-
 `rails g users index`
 
 6. Update root path as users index
-  
+
+7. Start rails server 
+`rails s`  
